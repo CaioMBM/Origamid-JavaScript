@@ -54,6 +54,7 @@ console.log("Distância total do scroll vertical: " + window.pageYOffset);
 */
 
 // matchMedia() - Media Query com JS
+/*
 const janela = window.matchMedia('(max-width: 600px)');
 
 console.log(window.innerWidth)
@@ -62,3 +63,4 @@ if(janela.matches) {
 } else {
     console.log('Tela MAIOR que 600px')
 }
+*/
