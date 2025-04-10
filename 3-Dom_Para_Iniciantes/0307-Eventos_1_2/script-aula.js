@@ -117,3 +117,18 @@ function handleKeyboard(event) {
 
 window.addEventListener('keydown', handleKeyboard);
 */
+
+// addEventListener() no forEach()
+/*
+const imgs = document.querySelectorAll('img');
+
+function imgSrc(event) {
+  const src = event.currentTarget.getAttribute('src'); // O event.currentTarget pode ser substituído pelo this
+  // const src = this.getAttribute('src');
+  console.log(src);
+}
+
+imgs.forEach((img) => {
+  img.addEventListener('click', imgSrc);
+});
+*/

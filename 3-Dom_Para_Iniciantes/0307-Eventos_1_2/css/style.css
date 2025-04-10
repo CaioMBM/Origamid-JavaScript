@@ -29,6 +29,11 @@ body {
   background-color: #903133;
 }
 
+/* Exercício da aula 0307-Eventos_1-2: aumentar o font-size do <p>*/ 
+html.letraMaior{
+  font-size: 30px;
+}
+
 .menu {
   grid-column: 3 / 5;
   margin-top: 2rem;
