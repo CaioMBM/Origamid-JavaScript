@@ -34,13 +34,13 @@ function initTabNav(){
 }
 
 function initAccordion(){
+  const accordionList = document.querySelectorAll('.js-accordion dt');
+
   // Verificação se '.js-accordion dt' existe
   if(accordionList.length){
-    const accordionList = document.querySelectorAll('.js-accordion dt');
-  
     accordionList[0].classList.add('ativo');
     accordionList[0].nextElementSibling.classList.add('ativo');
-  
+    
     // Função para exibir e ocultar o conteúdo
     function activeAccordion(){
       // O this faz referência ao item que está sendo clicado. 
@@ -48,7 +48,7 @@ function initAccordion(){
       this.classList.toggle('ativo');
       this.nextElementSibling.classList.toggle('ativo');
     }
-  
+    
     accordionList.forEach((item) => {
       item.addEventListener('click', activeAccordion)
     })
