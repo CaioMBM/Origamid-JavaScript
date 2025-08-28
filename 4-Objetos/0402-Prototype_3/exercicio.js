@@ -35,6 +35,7 @@ Object.getOwnPropertyNames(Document.prototype)
 // // Qual o construtor do dado abaixo:
 // li.hidden.constructor.name;
 
+/*
 const li = document.querySelector('li');
 
 li;
@@ -67,3 +68,4 @@ console.log('li.click()    - ' + li.click());
 
 // Qual o construtor do dado abaixo?
 li.hidden.constructor.name; // String
+*/
